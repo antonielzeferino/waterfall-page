@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1{
+    color: black;
+    text-align: center;
+    margin: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+header{
+    width: 100%;
+    position: fixed ;
+    padding-bottom: 1%;
+    border-bottom: 1px solid #64626250;
+}
+
+#nav-bar nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav-bar nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+#nav-bar nav ul li a:hover{
+    font-size: 115%;
+    transition: linear;
+    border: 1px solid rgba(80, 80, 80, 0.24);
+    border-radius: 10%;
+    padding: 5px;
+}
